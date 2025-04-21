@@ -51,10 +51,11 @@ export default function ComingSoon() {
 
           <div className="text-gray-800 text-center">
             <h2 className="text-xl font-bold mb-2 text-red-600">Visit Our Store</h2>
-            <div className="flex items-center justify-center mb-1">
-              <MapPin className="h-4 w-4 mr-2 text-red-600" />
-              <p className="text-sm">220/3, Bope Road, Piyadigama, Gintota, Galle</p>
-            </div>
+            <div className="flex flex-wrap items-center justify-center gap-1 text-center mb-1 px-2">
+  <MapPin className="h-4 w-4 text-red-600" />
+  <p className="text-sm break-words max-w-xs">220/3, Bope Road, Piyadigama, Gintota, Galle</p>
+</div>
+
             <div className="flex items-center justify-center mb-1">
               <Phone className="h-4 w-4 mr-2 text-red-600" />
               <p className="text-sm">091 2223630</p>
